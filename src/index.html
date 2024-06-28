@@ -5,22 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <nav> <label> Usuário Github </label><input class="usuario" type="text"> <button> Adicionar </button> </nav>
+<body class="w-full h-full p-10 ">
+  <nav> <input placeholder=" usuário..." class="bg-zinc-200 rounded p-1" type="text"> <button class="bg-purple-600 rounded text-white p-1" > Adicionar </button> </nav>
   <main> 
-    <article> 
-        <figure> <img src="" alt="foto"> </figure>
-        <span class="name"> João da Silva</span> <br>
-        <span class="login"> @joãozinho</span>
-    </article>
-    <section>
-        <span> REPOSITÓRIOS </span>
-        <div>
-            <span><strong>blog-pessoal</strong></span>
-            <p class="description"> Crie o seu blog pessoal usando html e css.</p>
-            <span class="language"> #html </span>
-        </div>
-    </section>
+
+    <div class="w-1/4 h-full py-10 border-b-2 rounded">
+
+      <header> 
+        <img class="rounded" src="hlegal.jpg" alt="foto">
+      </header>
+
+      <article class="flex flex-wrap justify-center text-center">
+        <img class="rounded-full absolute -mt-16" src="legal.jpg" width="100" alt="foto">
+        <nav class="py-14 h-18">
+          <span class="w-full"> João da Silva</span>
+          <span class="w-full"> @joãozinho</span>
+        </nav>
+      </article>
+
+      <section>
+          <span> REPOSITÓRIOS </span>
+
+          <div class="bg-zinc-200">
+              <span><strong>blog-pessoal</strong></span>
+              <p class="description"> Crie o seu blog pessoal usando html e css.</p>
+              <span class="language"> #html </span>
+          </div>
+
+      </section>
+
+    </div>
   </main>
 </body>
 </html>
